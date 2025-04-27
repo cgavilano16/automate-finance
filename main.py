@@ -4,7 +4,6 @@ import plotly.express as px
 import json
 import os
 # To run app, in terminal "streamlit run <python file name>"
-# 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
 st.set_page_config(page_title="Simple Finance App", page_icon="🪙", layout='wide')
 
 def load_transactions(file):
